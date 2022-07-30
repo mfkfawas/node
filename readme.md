@@ -1,4 +1,5 @@
 # Welcome to Round 3 of your NodeJS Interview
+
 # ![CodeBuddy Round 3 Interview](https://codebuddy.co/assets/img/Logo.svg)
 
 > This round is to test your **Debugging capabilities, Code optimization skills and Code quality** in a real world application.
@@ -8,13 +9,17 @@
 > **_Please carefully read the instructions mentioned below._**
 
 # Note
+
 1. **DON'T CLONE THIS REPO.** FORK this repo to your own GitHub account then clone it. Fork button is the top right corner of the page. The forked URL should look something like this: https://github.com/${YOUR_GITHUB_USERNAME}/node
+
 # ![How to Fork](src/assets/images/fork.png)
+
 2. Run `npm run test` to run the test cases. **All test cases should pass in your final submit otherwise the task is considered as incomplete.**
 3. Run `npm install` to install the project dependencies.
 4. `npm run seed` creates 100 users and 2 posts per user. **Use this seeder to populate the database.**
 
 # Task
+
 `[GET] http://localhost:3000/users` should return all the users with their post count. This API should have server side pagination implemented.
 
 The response from this API should be similar to the below mentioned response format.
